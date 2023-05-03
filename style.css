@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #FFC107;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#start-button {
+  padding: 10px 20px;
+  background-color: #FFF;
+  color: #200;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#start-button:hover {
+  background-color: #000;
+  color: #FFF;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+  border: 1px solid #FFF;
+}
